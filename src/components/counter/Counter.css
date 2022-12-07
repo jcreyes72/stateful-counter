@@ -8,6 +8,22 @@
     background-color: #f4a460;
 }
 
+
+
+.grid-item-title {
+    top: 35%;
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;  
+    color: whitesmoke;
+    -webkit-text-stroke-width: 0.75px;
+    -webkit-text-stroke-color:black
+}
+
 .grid-item {
     position: relative;
     display: flex;
@@ -42,8 +58,11 @@
 }
 
 .number {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 30px;
+    color: whitesmoke;
+    -webkit-text-stroke-width: 0.75px;
+    -webkit-text-stroke-color:black
 }
 

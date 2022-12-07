@@ -8,6 +8,9 @@ const Counter = () => {
   return (
   <div>
     <div className="grid-container">
+        <div className="grid-item-title">
+          <h1 className="title">A Stateful Counter</h1>
+        </div>
         <div className="grid-item grid-item-1">
             <button className="button" onClick={() => setCount(count + 1)}>Increment</button>
         </div>
